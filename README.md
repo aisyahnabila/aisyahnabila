@@ -1,5 +1,5 @@
 
-#Hi, I'm Aisyah Nabila 👋
+# Hi, I'm Aisyah Nabila 👋
 ## 💫 About Me:
 About Me:<br><br>🎯 I’m currently working on: Building my skills in web through freelance projects and volunteer work, including helping small businesses establish their online presence with websites.<br><br>🤝 I’m looking to collaborate on: Web development projects, particularly those involving development with Laravel or CI4. I’m also open to projects where I can contribute to both the front-end and back-end. I'm also interested in social impact projects where technology can make a difference.<br><br>🙋‍♂️ I’m looking for help with: Learning more about mobile app development, specifically in areas like UI/UX design and backend integration.<br><br>🌱 I’m currently learning: Mastering CodeIgniter 4, especially in areas like advanced routing, security, and performance optimization.<br><br>💬 Ask me about: Web development, especially in using Laravel. I am also open to discuss CodeIgniter and web development in general. I’m also keen to share my experience in building websites for small businesses.<br><br>⚡ Fun fact: When I'm not coding, I love playing logos, reading books, or browsing Quora.
 
