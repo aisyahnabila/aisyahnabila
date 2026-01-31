@@ -16,7 +16,7 @@ About Me:<br><br>🎯 I’m currently working on: Building my skills in web thro
 ![](https://github-readme-streak-stats.herokuapp.com/?user=aisyahnabila&theme=dracula&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aisyahnabila&theme=dracula&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-### ✍️ Random Dev Quote
+### ✍️ Random Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
