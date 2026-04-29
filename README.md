@@ -1,14 +1,14 @@
 
 # Hi, I'm Aisyah Nabila 👋
-Information Systems Graduate | System Analyst | Technical Writer | QA Enthusiast
+###Information Systems Graduate | System Analyst | Technical Writer | QA Enthusiast
 
 ## 💫 About Me
 
-🎯 I have hands-on experience in system analysis, technical documentation, and business process modeling through internships and real projects.<br></br> 
-📄 I specialize in creating structured documentation such as user guides, technical specifications, and system workflows.  
-🔍 I’m experienced in requirement gathering, UAT/SIT testing, and supporting system development lifecycle.  
-🤝 I enjoy collaborating with developers, QA, and stakeholders to ensure systems are well-documented and aligned with business needs.  
-🌱 Currently exploring: System Analysis, Technical Writing, and Software Testing  
+- 🎯 I have hands-on experience in system analysis, technical documentation, and business process modeling through internships and real projects.  
+- 📄 I specialize in creating structured documentation such as user guides, technical specifications, and system workflows.  
+- 🔍 Experienced in requirement gathering, UAT/SIT testing, and supporting the system development lifecycle.  
+- 🤝 Enjoy collaborating with developers, QA, and stakeholders to ensure systems are well-documented and aligned with business needs.  
+- 🌱 Currently exploring: System Analysis, Technical Writing, and Software Testing  
 
 
 ## 🌐 Socials:
