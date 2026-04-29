@@ -4,7 +4,7 @@ Information Systems Graduate | System Analyst | Technical Writer | QA Enthusiast
 
 ## 💫 About Me
 
-🎯 I have hands-on experience in system analysis, technical documentation, and business process modeling through internships and real projects. 
+🎯 I have hands-on experience in system analysis, technical documentation, and business process modeling through internships and real projects.<br></br> 
 📄 I specialize in creating structured documentation such as user guides, technical specifications, and system workflows.  
 🔍 I’m experienced in requirement gathering, UAT/SIT testing, and supporting system development lifecycle.  
 🤝 I enjoy collaborating with developers, QA, and stakeholders to ensure systems are well-documented and aligned with business needs.  
