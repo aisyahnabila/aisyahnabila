@@ -53,6 +53,20 @@
   <path class="branch" d="M438 338 V440 H516 V516 H568"/>
   <path class="branch" d="M822 292 V176 H922"/>
 
+  <!-- player marker: rides the START -> ANALYSIS -> DOCUMENTATION -> TESTING
+       leg of mainroute (the first ~52% of its length, where the path already
+       threads through all three zones in order), holds briefly once it
+       reaches the finish node, then resets. Drawn under the zone cards so it
+       ducks out of sight while "inside" each stage instead of riding over
+       their labels. -->
+  <g filter="url(#glow)">
+    <circle cx="0" cy="0" r="13" fill="#f3d37a" stroke="#fff1b0" stroke-width="3"/>
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#f3d37a" opacity=".3" stroke-width="2"/>
+    <animateMotion dur="12s" repeatCount="indefinite" rotate="0" calcMode="linear" keyTimes="0;0.75;1" keyPoints="0;0.523;0.523">
+      <mpath href="#mainroute"/>
+    </animateMotion>
+  </g>
+
   <!-- start node -->
   <g filter="url(#soft)">
     <circle cx="104" cy="314" r="37" fill="#102b31" stroke="#5ed2b0" stroke-width="3"/>
@@ -77,41 +91,52 @@
   <text x="838" y="309" class="label">LEVEL 03</text><text x="838" y="331" class="label">TESTING</text><text x="796" y="353" class="small">FIND + VERIFY</text>
 
   <!-- finish node -->
-  <g filter="url(#soft)"><rect x="930" y="522" width="184" height="76" rx="12" fill="#12372f" stroke="#5ed2b0" stroke-width="3"/><circle cx="965" cy="560" r="18" fill="#5ed2b0"/><path d="M956 560l7 7 13-16" fill="none" stroke="#061018" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g filter="url(#soft)">
+    <rect x="930" y="522" width="184" height="76" rx="12" fill="#12372f" stroke="#5ed2b0" stroke-width="3"/>
+    <circle cx="965" cy="560" r="18" fill="none" stroke="#5ed2b0" stroke-width="2">
+      <animate attributeName="r" values="18;30;18" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".55;0;.55" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="965" cy="560" r="18" fill="#5ed2b0"/>
+    <path d="M956 560l7 7 13-16" fill="none" stroke="#061018" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
   <text x="994" y="555" class="label">SYSTEM VERIFIED</text><text x="994" y="578" fill="#5ed2b0" font-size="13" font-weight="700">QUEST COMPLETE</text>
 
-  <!-- bugs -->
+  <!-- bugs; the first sits directly on mainroute so it visibly blocks the path -->
   <g fill="#e08172" stroke="#061018" stroke-width="3">
-    <g transform="translate(405 278)"><ellipse cx="0" cy="0" rx="12" ry="15"/><circle cx="0" cy="-17" r="7"/><path d="M-10 -5l-13-8M-11 3l-14 2M10 -5l13-8M11 3l14 2" fill="none" stroke="#e08172" stroke-width="4" stroke-linecap="round"/></g>
-    <g transform="translate(622 386)"><ellipse cx="0" cy="0" rx="12" ry="15"/><circle cx="0" cy="-17" r="7"/><path d="M-10 -5l-13-8M-11 3l-14 2M10 -5l13-8M11 3l14 2" fill="none" stroke="#e08172" stroke-width="4" stroke-linecap="round"/></g>
-    <g transform="translate(902 418)"><ellipse cx="0" cy="0" rx="12" ry="15"/><circle cx="0" cy="-17" r="7"/><path d="M-10 -5l-13-8M-11 3l-14 2M10 -5l13-8M11 3l14 2" fill="none" stroke="#e08172" stroke-width="4" stroke-linecap="round"/></g>
+    <g transform="translate(405 296)">
+      <animateTransform attributeName="transform" type="scale" values="1;1.14;1" additive="sum" dur="1.9s" repeatCount="indefinite" begin="0s"/>
+      <ellipse cx="0" cy="0" rx="12" ry="15"/><circle cx="0" cy="-17" r="7"/><path d="M-10 -5l-13-8M-11 3l-14 2M10 -5l13-8M11 3l14 2" fill="none" stroke="#e08172" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(622 386)">
+      <animateTransform attributeName="transform" type="scale" values="1;1.14;1" additive="sum" dur="1.9s" repeatCount="indefinite" begin="0.6s"/>
+      <ellipse cx="0" cy="0" rx="12" ry="15"/><circle cx="0" cy="-17" r="7"/><path d="M-10 -5l-13-8M-11 3l-14 2M10 -5l13-8M11 3l14 2" fill="none" stroke="#e08172" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(902 418)">
+      <animateTransform attributeName="transform" type="scale" values="1;1.14;1" additive="sum" dur="1.9s" repeatCount="indefinite" begin="1.2s"/>
+      <ellipse cx="0" cy="0" rx="12" ry="15"/><circle cx="0" cy="-17" r="7"/><path d="M-10 -5l-13-8M-11 3l-14 2M10 -5l13-8M11 3l14 2" fill="none" stroke="#e08172" stroke-width="4" stroke-linecap="round"/>
+    </g>
   </g>
-  <text x="383" y="322" class="small" fill="#e08172">BUG</text><text x="602" y="430" class="small" fill="#e08172">BUG</text><text x="882" y="462" class="small" fill="#e08172">BUG</text>
-
-  <!-- player marker, traces the full route on a loop -->
-  <g filter="url(#glow)">
-    <circle cx="0" cy="0" r="13" fill="#f3d37a" stroke="#fff1b0" stroke-width="3"/>
-    <circle cx="0" cy="0" r="25" fill="none" stroke="#f3d37a" opacity=".3" stroke-width="2"/>
-    <text x="-32" y="38" class="small" fill="#f3d37a">PLAYER</text>
-    <animateMotion dur="14s" repeatCount="indefinite" rotate="0">
-      <mpath href="#mainroute"/>
-    </animateMotion>
-  </g>
+  <text x="372" y="340" class="small" fill="#e08172">BUG</text><text x="602" y="430" class="small" fill="#e08172">BUG</text><text x="882" y="462" class="small" fill="#e08172">BUG</text>
 
   <!-- Baymax-like quiet companion -->
   <g transform="translate(1065 176)" opacity=".8">
+    <circle cx="0" cy="8" r="32" fill="none" stroke="#d9f0e6" stroke-width="2">
+      <animate attributeName="r" values="30;42;30" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.32;0" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
     <rect x="-25" y="-20" width="50" height="58" rx="25" fill="#d9f0e6" stroke="#7ca9a0" stroke-width="2"/>
     <circle cx="-9" cy="0" r="3" fill="#31515a"/><circle cx="9" cy="0" r="3" fill="#31515a"/><path d="M-9 0h18" stroke="#31515a" stroke-width="2"/>
     <path d="M-31 5h-13M31 5h13M-10 38v13M10 38v13" stroke="#7ca9a0" stroke-width="5" stroke-linecap="round"/>
   </g>
   <text x="1024" y="246" class="small">ASSIST</text>
 
-  <!-- hidden path and tiny unregistered NPC -->
-  <path d="M286 374 H330 V430 H286 V470" fill="none" stroke="#d1a85a" stroke-width="3" stroke-dasharray="3 8" opacity=".3"/>
-  <g transform="translate(286 470)" opacity=".55">
+  <!-- hidden path and tiny unregistered NPC: no caption, just a faint trail and a slow idle bob for anyone looking closely -->
+  <path d="M286 374 H330 V430 H286 V470" fill="none" stroke="#d1a85a" stroke-width="3" stroke-dasharray="3 8" opacity=".32"/>
+  <g transform="translate(286 470)" opacity=".62">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" additive="sum" dur="4.2s" repeatCount="indefinite"/>
     <circle r="15" fill="#e8bd72"/><path d="M-12-3h24M-7 7h14" stroke="#6c4d36" stroke-width="3" stroke-linecap="round"/>
   </g>
-  <text x="257" y="500" class="small" fill="#e8bd72" opacity=".55">PID: ??? / LOITERING</text>
 
   <text x="52" y="670" class="small">OBJECTIVE: TRACE THE BUG  /  KEEP THE REQUIREMENT MOVING</text>
   <text x="1002" y="670" class="small">v1.0</text>
