@@ -139,44 +139,6 @@ I like questions such as: *What does the user actually need? What happens when t
 | Documentation | Microsoft Word · Excel · PowerPoint · Notion · ClickUp |
 | Platforms | Git · GitHub · Odoo ERP · Power Apps · Power Automate · Power BI · Ubuntu VPS |
 
-## Learning Queue
-
-```text
-[RUNNING]  Deeper system analysis and architecture
-[RUNNING]  Software quality, test design, and security testing
-[RUNNING]  Technical documentation that stays useful across releases
-[RUNNING]  Clearer English communication for technical collaboration
-```
-
-## System Quest
-
-<div align="center">
-  <img src="assets/system-quest.svg" alt="System Quest game map: trace the bug from start through analysis, documentation, and testing to a verified system" width="100%" />
-</div>
-
-<p align="center"><i>Trace the requirement. Find the bug. Verify the system.</i></p>
-
-## Diagnostics
-
-<details>
-<summary>🔍 Run hidden diagnostic</summary>
-<br>
-
-```text
-> RUNNING SELF-CHECK...
-
-  ANALYSIS MODULE ......... OK
-  DOCUMENTATION MODULE .... OK
-  QA MODULE ............... OK
-  COFFEE LEVEL ............ LOW
-  UNREGISTERED PROCESS .... DETECTED (harmless, refuses to leave)
-
-> DIAGNOSIS: System is healthy. One dependency is emotional support, not technical.
-```
-
-Cross-reference: an unregistered process was also logged wandering near LEVEL 01 in the [System Quest](#system-quest) map. It does not affect system stability.
-
-</details>
 
 ## Publications and IP
 

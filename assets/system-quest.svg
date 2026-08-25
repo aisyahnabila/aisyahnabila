@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
   <title id="title">System Quest: Trace the Bug</title>
-  <desc id="desc">A game map following a requirement from chaos through analysis, documentation, and testing to a verified system, with bug obstacles and hidden companion details.</desc>
+  <desc id="desc">A game map following a requirement from chaos through analysis, documentation, and testing to a verified system, with bug obstacles along the way.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" fill="none" stroke="#1d3440" stroke-width="1"/>
@@ -130,13 +130,6 @@
     <path d="M-31 5h-13M31 5h13M-10 38v13M10 38v13" stroke="#7ca9a0" stroke-width="5" stroke-linecap="round"/>
   </g>
   <text x="1024" y="246" class="small">ASSIST</text>
-
-  <!-- hidden path and tiny unregistered NPC: no caption, just a faint trail and a slow idle bob for anyone looking closely -->
-  <path d="M286 374 H330 V430 H286 V470" fill="none" stroke="#d1a85a" stroke-width="3" stroke-dasharray="3 8" opacity=".32"/>
-  <g transform="translate(286 470)" opacity=".62">
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" additive="sum" dur="4.2s" repeatCount="indefinite"/>
-    <circle r="15" fill="#e8bd72"/><path d="M-12-3h24M-7 7h14" stroke="#6c4d36" stroke-width="3" stroke-linecap="round"/>
-  </g>
 
   <text x="52" y="670" class="small">OBJECTIVE: TRACE THE BUG  /  KEEP THE REQUIREMENT MOVING</text>
   <text x="1002" y="670" class="small">v1.0</text>
