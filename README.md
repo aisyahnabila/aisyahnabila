@@ -1,13 +1,13 @@
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&duration=2200&pause=900&color=2F6F73&center=true&vCenter=true&width=760&lines=SYSTEM+BOOTING...;AISYAH%27S+Nabila;SYSTEM+ANALYSIS+%C2%B7+TECHNICAL+WRITING+%C2%B7+QA" alt="Aisyah's system boot sequence" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&duration=2200&pause=900&color=2F6F73&center=true&vCenter=true&width=760&lines=SYSTEM+BOOTING...;AISYAH%27S+NABILA;SYSTEM+ANALYSIS+%C2%B7+TECHNICAL+WRITING+%C2%B7+QA" alt="Aisyah's system boot sequence" />
 </div>
 
-# Aisyah's System
+# Aisyah Profile
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
-│  SYSTEM: AISYAH.NZ         STATUS: ONLINE                    │
+│  SYSTEM: AISYAH.NZ                                           │
 │  MISSION: TURNING COMPLEXITY INTO CLARITY                    │
 │  MODE:    QA / SYSTEM ANALYSIS / TECHNICAL WRITING           │
 └──────────────────────────────────────────────────────────────┘
