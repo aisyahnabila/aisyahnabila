@@ -115,18 +115,6 @@ I like questions such as: *What does the user actually need? What happens when t
 **Contribution:** Designed Use Cases, BPMN, ERD, and functional specifications; developed digital transaction and reporting features; prepared the User Guide; and validated the system before deployment.<br>
 **Status:** Completed, Jul–Sep 2024 · Web-based computer program IPR -->
 
-## System Logs
-
-```text
-[2021–2025]  INFORMATION SYSTEMS / TELKOM UNIVERSITY
-[2024]       WEB DEVELOPMENT / INVENTORY, ERP, AND DATA PROJECTS
-[2024–2025]  LITERA / DIGITAL PUBLISHING PLATFORM
-[NOV 2025]   TECHNICAL WRITING + QA SUPPORT / SEMEN INDONESIA
-[FEB 2026]   WEBREPORT / OPERATIONAL AND FINANCE PLATFORM
-[APR 2026]   TERNAKPARK / FARM MANAGEMENT SYSTEM
-[NOW]        QA · SYSTEM ANALYSIS · TECHNICAL WRITING
-```
-
 ## Technology Map
 
 | AREA | TOOLS AND METHODS |
